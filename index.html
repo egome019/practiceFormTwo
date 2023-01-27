@@ -12,9 +12,58 @@
 		</header>
 		<p>Please fill out form for a chance to ride</p>
 		<form method="post" action="https://www.youtube.com/watch?v=JVOjIzGaTdE">
-			<fieldset></fieldset>
-			<fieldset></fieldset>
-			<fieldset></fieldset>
+			<fieldset>
+				<label for="first-name"
+					>First Name:
+					<input type="text" name="first-name" id="first-name" required
+				/></label>
+				<label for="last-name"
+					>Last Name:
+					<input type="text" name="last-name" id="last-name" required
+				/></label>
+				<label for="DOB"
+					>Date of Birth: <input type="date" name="DOB" id="DOB" required
+				/></label>
+				<label for="email"
+					>Email Address: <input type="email" name="email" id="email" required
+				/></label>
+				<label for="gender"
+					>Gender:
+					<select name="gender" id="gender" required>
+						<option value="">--Select One--</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select></label
+				>
+			</fieldset>
+			<fieldset>
+				<legend>Training Type</legend>
+				<label for="training-type"
+					><input type="radio" name="training-type" id="in-person" /> In-Person
+				</label>
+				<label for="training-type"
+					><input type="radio" name="training-type" id="video" /> Video Training
+				</label>
+			</fieldset>
+			<fieldset>
+				<legend>Excels in what subjects?</legend>
+				<label for="subject"
+					><input type="checkbox" name="subject" id="math" /> Math
+				</label>
+				<label for="subject"
+					><input type="checkbox" name="subject" id="science" /> Science
+				</label>
+				<label for="subject"
+					><input type="checkbox" name="subject" id="english" /> English
+				</label>
+				<label for="subject"
+					><input type="checkbox" name="subject" id="spanish" /> Spanish
+				</label>
+				<label for="subject"
+					><input type="checkbox" name="subject" id="art" /> Art
+				</label>
+			</fieldset>
+			<button type="submit">Submit</button>
 		</form>
 		<footer></footer>
 	</body>
