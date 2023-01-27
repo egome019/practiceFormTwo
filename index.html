@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="styles.css" rel="stylesheet" />
 		<title>Can-I-Ride Form</title>
 	</head>
 	<body>
@@ -39,28 +40,65 @@
 			<fieldset>
 				<legend>Training Type</legend>
 				<label for="training-type"
-					><input type="radio" name="training-type" id="in-person" /> In-Person
+					><input
+						class="align-radio"
+						type="radio"
+						name="training-type"
+						id="in-person"
+					/>
+					In-Person
 				</label>
 				<label for="training-type"
-					><input type="radio" name="training-type" id="video" /> Video Training
+					><input
+						type="radio"
+						class="align-radio"
+						name="training-type"
+						id="video"
+					/>
+					Video Training
 				</label>
 			</fieldset>
 			<fieldset>
 				<legend>Excels in what subjects?</legend>
 				<label for="subject"
-					><input type="checkbox" name="subject" id="math" /> Math
+					><input
+						type="checkbox"
+						name="subject"
+						class="align-radio"
+						id="math"
+					/>
+					Math
 				</label>
 				<label for="subject"
-					><input type="checkbox" name="subject" id="science" /> Science
+					><input
+						type="checkbox"
+						name="subject"
+						id="science"
+						class="align-radio"
+					/>
+					Science
 				</label>
 				<label for="subject"
-					><input type="checkbox" name="subject" id="english" /> English
+					><input
+						type="checkbox"
+						name="subject"
+						id="english"
+						class="align-radio"
+					/>
+					English
 				</label>
 				<label for="subject"
-					><input type="checkbox" name="subject" id="spanish" /> Spanish
+					><input
+						class="align-radio"
+						type="checkbox"
+						name="subject"
+						id="spanish"
+					/>
+					Spanish
 				</label>
 				<label for="subject"
-					><input type="checkbox" name="subject" id="art" /> Art
+					><input type="checkbox" class="align-radio" name="subject" id="art" />
+					Art
 				</label>
 			</fieldset>
 			<button type="submit">Submit</button>
